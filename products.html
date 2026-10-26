@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse example products from NovaTech Solutions.">
+  <title>Products | NovaTech Solutions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">NovaTech<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html" aria-current="page">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <section class="page-intro">
+      <p class="eyebrow">Our catalogue</p>
+      <h1>Products built for everyday work.</h1>
+      <p>These sample products and prices are fictional and are included to demonstrate a semantic HTML table.</p>
+    </section>
+
+    <section class="table-wrap" aria-label="Product catalogue">
+      <table>
+        <caption>NovaTech sample product list</caption>
+        <thead>
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Category</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price (EGP)</th>
+            <th scope="col">Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>NovaBook Air</td>
+            <td>Laptop</td>
+            <td>Lightweight laptop for study and office work</td>
+            <td>24,500</td>
+            <td><span class="status available">In stock</span></td>
+          </tr>
+          <tr>
+            <td>NovaSound Mini</td>
+            <td>Audio</td>
+            <td>Compact wireless speaker</td>
+            <td>1,850</td>
+            <td><span class="status available">In stock</span></td>
+          </tr>
+          <tr>
+            <td>NovaPad 10</td>
+            <td>Tablet</td>
+            <td>Tablet for reading, notes, and browsing</td>
+            <td>9,900</td>
+            <td><span class="status limited">Limited</span></td>
+          </tr>
+          <tr>
+            <td>NovaMouse Pro</td>
+            <td>Accessory</td>
+            <td>Ergonomic wireless mouse</td>
+            <td>750</td>
+            <td><span class="status available">In stock</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p class="table-note">Prices are examples for the lab only and do not represent real offers.</p>
+    <a class="button" href="contact.html">Ask about a product</a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 NovaTech Solutions. Student lab project.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+</body>
+</html>
